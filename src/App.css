@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-layout{
+  height: 100vh;
+}
+.title{
+  padding: 0;
+  margin: 0 !important;
+  color: white !important;
+  
+}
+.ant-layout-sider-trigger{
+  display: none;
+}
+.btncust{
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px !important;
+}
+.ant-form-item-control-input-content{
+  display: flex;
+  justify-content: space-around;
+  /* border-top: 1px solid black; */
+}
+
+.ant-col{
+  text-align: left !important;
+}
+.ant-switch-inner{
+  background-color: black !important;
+  color: black !important;
+}
+.switchToggle{
+  width: 100%;
+  display: flex;
+}
+.formCont{
+  background-image: url(https://img.freepik.com/free-vector/blue-geometric-background_53876-116684.jpg?w=740&t=st=1671381713~exp=1671382313~hmac=7f66fd25f1feeb3356fd71f4a9466faa9640a2ea8b4d14ecead3d4282033ca98);
+  /* background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); */
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  display: grid;
+  align-items:center;
+}
+.ant-layout-header{
+  background-color: #282c34 !important;
+}
+.headertab{
+  width:90px;
+  padding:5px;
+  justify-content: center;
+  font-size: 20px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: white;
+
+}
